@@ -11,11 +11,11 @@
                     @csrf
                     @method('POST')
                     <div>
-                        <b><label for="description">Descripcion</label></b>
+                        <b><label for="description">DESCRIPCION</label></b>
                         <input type="text" name="description" autocomplete="off" class="form-control" required>
                     </div>
                     <div>
-                        <b><label for="date">Fecha</label></b>
+                        <b><label for="date">FECHA</label></b>
                         <input type="date" name="date" autocomplete="off" class="form-control" required>
                     </div>
                     {{--                <div>--}}
@@ -23,7 +23,7 @@
                     {{--                    <input type="text" name="user_id" autocomplete="off" class="form-control" required>--}}
                     {{--                </div>--}}
                     <div>
-                        <b><label for="user_id" class="mt-2">Usuario</label></b>
+                        <b><label for="user_id" class="mt-2">USUARIO</label></b>
                         <select class="custom-select" name="user_id" id="user_id" required>
                             <option>--Seleccione una opcion--</option>
                             @foreach($usuarios as $usuario)

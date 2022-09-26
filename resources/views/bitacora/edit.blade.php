@@ -12,7 +12,7 @@
                     @method('PATCH')
                     <div>
                         <b><label for="description" class="mt-2">DESCRIPCION</label></b>
-                        <input type="text"  id="descripcion" class="form-control" autocomplete="off" name="description" placeholder="" maxlength="45" value="{{$bitacora->description}}" required>
+                        <input type="text"  id="descripcion" class="form-control" autocomplete="off" name="description" placeholder="" maxlength="" value="{{$bitacora->description}}" required>
                     </div>
                     <div>
                         <b><label for="date" class="mt-2">FECHA</label></b>

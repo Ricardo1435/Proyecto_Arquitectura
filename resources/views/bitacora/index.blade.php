@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 @section('contenido')
-    <div class="container mt-4">
+    <div class="container mt-4 mb-4">
         <div class="card border-info">
             <div class="card-header bg-info text-white">
                 <div class="navbar">
