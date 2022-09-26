@@ -55,8 +55,8 @@ class BitacoraController extends Controller
 
     public function validateForm(Request $request){
         $validatedData = $request->validate([
-            'descripcion'=>'required',
-            'fecha' => 'required',
+            'description'=>'required',
+            'date' => 'required',
             'user_id' => 'required'
         ]);
         return $validatedData;

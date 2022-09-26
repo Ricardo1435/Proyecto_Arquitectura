@@ -11,12 +11,12 @@
                     @csrf
                     @method('POST')
                     <div>
-                        <b><label for="descripcion">Descripcion</label></b>
-                        <input type="text" name="descripcion" autocomplete="off" class="form-control" required>
+                        <b><label for="description">Descripcion</label></b>
+                        <input type="text" name="description" autocomplete="off" class="form-control" required>
                     </div>
                     <div>
-                        <b><label for="fecha">Fecha</label></b>
-                        <input type="date" name="fecha" autocomplete="off" class="form-control" required>
+                        <b><label for="date">Fecha</label></b>
+                        <input type="date" name="date" autocomplete="off" class="form-control" required>
                     </div>
                     {{--                <div>--}}
                     {{--                    <b><label for="user_id">Usuario</label></b>--}}

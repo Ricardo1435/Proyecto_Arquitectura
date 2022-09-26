@@ -11,12 +11,12 @@
                     @csrf
                     @method('PATCH')
                     <div>
-                        <b><label for="descripcion" class="mt-2">DESCRIPCION</label></b>
-                        <input type="text"  id="descripcion" class="form-control" autocomplete="off" name="descripcion" placeholder="" maxlength="45" value="{{$bitacora->descripcion}}" required>
+                        <b><label for="description" class="mt-2">DESCRIPCION</label></b>
+                        <input type="text"  id="descripcion" class="form-control" autocomplete="off" name="description" placeholder="" maxlength="45" value="{{$bitacora->description}}" required>
                     </div>
                     <div>
-                        <b><label for="fecha" class="mt-2">FECHA</label></b>
-                        <input type="date"  class="form-control" autocomplete="off" name="fecha" placeholder="" maxlength="250" value="{{$bitacora->fecha}}" required>
+                        <b><label for="date" class="mt-2">FECHA</label></b>
+                        <input type="date"  class="form-control" autocomplete="off" name="date" placeholder="" maxlength="250" value="{{$bitacora->date}}" required>
                     </div>
 
                     <div>

@@ -24,8 +24,8 @@
                         <!-- Aqui va el metodo for each -->
                         <tr>
                             <th scope="row">{{$bitacora->id}}</th>
-                            <td >{{$bitacora->descripcion}}</td>
-                            <td>{{$bitacora->fecha}}</td>
+                            <td >{{$bitacora->description}}</td>
+                            <td>{{$bitacora->date}}</td>
                             <td>{{$bitacora->user->name}}</td>
                         </tr>
                         </tbody>

@@ -28,8 +28,8 @@
                         @foreach($bitacoras as $bitacora)
                             <tr>
                                 <th scope="row">{{$bitacora->id}}</th>
-                                <td>{{$bitacora->descripcion}}</td>
-                                <td>{{$bitacora->fecha}}</td>
+                                <td>{{$bitacora->description}}</td>
+                                <td>{{$bitacora->date}}</td>
                                 <td>{{$bitacora->user->name}}</td>
                                 <td class="d-flex justify-content-center">
                                     <a href="{{route('bitacoraEdit', $bitacora)}}"><input type="button" value="Editar" class="btn btn-warning" id="btnEditar"></a>&nbsp;

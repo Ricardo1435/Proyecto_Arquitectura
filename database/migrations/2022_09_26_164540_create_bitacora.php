@@ -15,8 +15,8 @@ class CreateBitacora extends Migration
     {
         Schema::create('bitacora', function (Blueprint $table) {
             $table->id();
-            $table->text('descripcion');
-            $table->date('fecha');
+            $table->text('description');
+            $table->date('date');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
